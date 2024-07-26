@@ -8,4 +8,7 @@ export default {
     password: 'secret_sauce',
     invalidUsername: 'invalid_user',
     invalidPassword: 'invalid_password',
+    firstName: 'tester',
+    lastName: 'user',
+    postalCode: '4000',
 };

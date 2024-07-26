@@ -49,15 +49,4 @@ test.describe('Login', () => {
     await loginPage.doLogin(lockedUsername, password);
     await loginPage.checkLockedUserCredentials();
   });
-
-  //Add a product to cart
-  // test('Add Product', async ({ page }) => {
-
-  //   //single product value
-  //   const buttonAddToCart = page.locator('#add-to-cart-sauce-labs-backpack')
-  //   await buttonAddToCart.click()
-
-  //   const shoppingCartBadge = await page.locator('[data-test="shopping-cart-badge"]').textContent()
-  //   expect(shoppingCartBadge).toEqual('1')
-  // })
 })
