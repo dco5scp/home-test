@@ -6,12 +6,8 @@ import pages from '../utils/pages';
 import userData from '../data/user-data';
 import CompletePage from '../pages/checkoutComplete';
 
-// test.beforeEach(async ({ page }) => {
-//     await page.goto(pages.homePage);
-// });
-
 test.describe('Checkout', () => {
-    // test.describe.configure({ mode: 'serial' });
+    test.describe.configure({ mode: 'serial' });
     let page;
     test.beforeAll(async ({ browser }) => {
         const context = await browser.newContext();

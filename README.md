@@ -7,6 +7,7 @@ Repository for automated tests for [Sauce Demo e-commerce website](https://www.s
 2. [Git](https://git-scm.com/)
 3. [Visual Studio Code](https://code.visualstudio.com/) - Best IDE to work with playwright
 4. Playwright extension for VS Code
+    - Search by playwright and install "Playwright test for VS Code"
 
 ## Installation
 
@@ -21,10 +22,16 @@ https://github.com/dco5scp/home-test.git
 ```sh
 npm install 
 ```
+
 3. For first time installation run below command to download required browsers
 
 ```sh
 npx playwright install
+```
+
+## Create folder authentication 
+```sh
+mkdir -p playwright/.auth
 ```
 
 ## Running Test
